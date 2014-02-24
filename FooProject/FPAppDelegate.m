@@ -7,14 +7,21 @@
 //
 
 #import "FPAppDelegate.h"
+#import "FPHomeViewController.h"
+#import "UIColor+Monokai.h"
 
 @implementation FPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    FPHomeViewController *homeViewController = [[FPHomeViewController alloc] initWithAPIClient:nil];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:homeViewController];
+    navController.navigationBar.barTintColor = [UIColor lightGray];
+    
+    navController.navigationBar.translucent = NO;
+    [self.window setRootViewController:navController];
     [self.window makeKeyAndVisible];
     return YES;
 }

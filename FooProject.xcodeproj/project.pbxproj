@@ -19,6 +19,22 @@
 		5A465BBB18BB046F004E3465 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A465BA318BB046F004E3465 /* UIKit.framework */; };
 		5A465BC318BB046F004E3465 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A465BC118BB046F004E3465 /* InfoPlist.strings */; };
 		5A465BC518BB046F004E3465 /* FooProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A465BC418BB046F004E3465 /* FooProjectTests.m */; };
+		5A7B000318BB08800046AB12 /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7B000218BB08800046AB12 /* Cedar-iOS.framework */; };
+		5A7B000A18BB08A40046AB12 /* FPHomeViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B000918BB08A40046AB12 /* FPHomeViewControllerSpec.mm */; };
+		5A7B000D18BB091B0046AB12 /* FPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B000C18BB091B0046AB12 /* FPHomeViewController.m */; };
+		5A7B000F18BB09510046AB12 /* FPHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A7B000E18BB09510046AB12 /* FPHomeView.xib */; };
+		5A7B001018BB09510046AB12 /* FPHomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A7B000E18BB09510046AB12 /* FPHomeView.xib */; };
+		5A7B001118BB0A8C0046AB12 /* FPHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B000C18BB091B0046AB12 /* FPHomeViewController.m */; };
+		5A7B001418BB0C7A0046AB12 /* FPAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B001318BB0C7A0046AB12 /* FPAPIClient.m */; };
+		5A7B001518BB0C7A0046AB12 /* FPAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B001318BB0C7A0046AB12 /* FPAPIClient.m */; };
+		5A7B001818BB0EF70046AB12 /* UIColor+Monokai.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B001718BB0EF70046AB12 /* UIColor+Monokai.m */; };
+		5A7B001918BB0EF70046AB12 /* UIColor+Monokai.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B001718BB0EF70046AB12 /* UIColor+Monokai.m */; };
+		5A7B001B18BB1CF50046AB12 /* FPAPIClientSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5A7B001A18BB1CF50046AB12 /* FPAPIClientSpec.mm */; };
+		5A7BFFF518BB08800046AB12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A465BA318BB046F004E3465 /* UIKit.framework */; };
+		5A7BFFF618BB08800046AB12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A465B9F18BB046F004E3465 /* Foundation.framework */; };
+		5A7BFFF718BB08800046AB12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A465BA118BB046F004E3465 /* CoreGraphics.framework */; };
+		5A7BFFFD18BB08800046AB12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A7BFFFB18BB08800046AB12 /* InfoPlist.strings */; };
+		5A7BFFFF18BB08800046AB12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7BFFFE18BB08800046AB12 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +64,22 @@
 		5A465BC018BB046F004E3465 /* FooProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FooProjectTests-Info.plist"; sourceTree = "<group>"; };
 		5A465BC218BB046F004E3465 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A465BC418BB046F004E3465 /* FooProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FooProjectTests.m; sourceTree = "<group>"; };
+		5A7B000018BB08800046AB12 /* specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "specs-Prefix.pch"; sourceTree = "<group>"; };
+		5A7B000118BB08800046AB12 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		5A7B000218BB08800046AB12 /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
+		5A7B000918BB08A40046AB12 /* FPHomeViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FPHomeViewControllerSpec.mm; sourceTree = "<group>"; };
+		5A7B000B18BB091B0046AB12 /* FPHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPHomeViewController.h; sourceTree = "<group>"; };
+		5A7B000C18BB091B0046AB12 /* FPHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPHomeViewController.m; sourceTree = "<group>"; };
+		5A7B000E18BB09510046AB12 /* FPHomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FPHomeView.xib; sourceTree = "<group>"; };
+		5A7B001218BB0C7A0046AB12 /* FPAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPAPIClient.h; sourceTree = "<group>"; };
+		5A7B001318BB0C7A0046AB12 /* FPAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPAPIClient.m; sourceTree = "<group>"; };
+		5A7B001618BB0EF70046AB12 /* UIColor+Monokai.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Monokai.h"; sourceTree = "<group>"; };
+		5A7B001718BB0EF70046AB12 /* UIColor+Monokai.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Monokai.m"; sourceTree = "<group>"; };
+		5A7B001A18BB1CF50046AB12 /* FPAPIClientSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FPAPIClientSpec.mm; sourceTree = "<group>"; };
+		5A7BFFF418BB08800046AB12 /* specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = specs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7BFFFA18BB08800046AB12 /* specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "specs-Info.plist"; sourceTree = "<group>"; };
+		5A7BFFFC18BB08800046AB12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A7BFFFE18BB08800046AB12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +103,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5A7BFFF118BB08800046AB12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7BFFF718BB08800046AB12 /* CoreGraphics.framework in Frameworks */,
+				5A7BFFF518BB08800046AB12 /* UIKit.framework in Frameworks */,
+				5A7B000318BB08800046AB12 /* Cedar-iOS.framework in Frameworks */,
+				5A7BFFF618BB08800046AB12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,6 +122,7 @@
 			children = (
 				5A465BA518BB046F004E3465 /* FooProject */,
 				5A465BBE18BB046F004E3465 /* FooProjectTests */,
+				5A7BFFF818BB08800046AB12 /* specs */,
 				5A465B9E18BB046F004E3465 /* Frameworks */,
 				5A465B9D18BB046F004E3465 /* Products */,
 			);
@@ -89,6 +133,7 @@
 			children = (
 				5A465B9C18BB046F004E3465 /* FooProject.app */,
 				5A465BB718BB046F004E3465 /* FooProjectTests.xctest */,
+				5A7BFFF418BB08800046AB12 /* specs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,6 +156,13 @@
 				5A465BAF18BB046F004E3465 /* FPAppDelegate.m */,
 				5A465BB118BB046F004E3465 /* Images.xcassets */,
 				5A465BA618BB046F004E3465 /* Supporting Files */,
+				5A7B000B18BB091B0046AB12 /* FPHomeViewController.h */,
+				5A7B000C18BB091B0046AB12 /* FPHomeViewController.m */,
+				5A7B000E18BB09510046AB12 /* FPHomeView.xib */,
+				5A7B001218BB0C7A0046AB12 /* FPAPIClient.h */,
+				5A7B001318BB0C7A0046AB12 /* FPAPIClient.m */,
+				5A7B001618BB0EF70046AB12 /* UIColor+Monokai.h */,
+				5A7B001718BB0EF70046AB12 /* UIColor+Monokai.m */,
 			);
 			path = FooProject;
 			sourceTree = "<group>";
@@ -140,6 +192,29 @@
 			children = (
 				5A465BC018BB046F004E3465 /* FooProjectTests-Info.plist */,
 				5A465BC118BB046F004E3465 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A7BFFF818BB08800046AB12 /* specs */ = {
+			isa = PBXGroup;
+			children = (
+				5A7B000118BB08800046AB12 /* Rakefile */,
+				5A7B000218BB08800046AB12 /* Cedar-iOS.framework */,
+				5A7BFFF918BB08800046AB12 /* Supporting Files */,
+				5A7B000918BB08A40046AB12 /* FPHomeViewControllerSpec.mm */,
+				5A7B001A18BB1CF50046AB12 /* FPAPIClientSpec.mm */,
+			);
+			path = specs;
+			sourceTree = "<group>";
+		};
+		5A7BFFF918BB08800046AB12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A7BFFFA18BB08800046AB12 /* specs-Info.plist */,
+				5A7BFFFB18BB08800046AB12 /* InfoPlist.strings */,
+				5A7BFFFE18BB08800046AB12 /* main.m */,
+				5A7B000018BB08800046AB12 /* specs-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -182,6 +257,23 @@
 			productReference = 5A465BB718BB046F004E3465 /* FooProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		5A7BFFF318BB08800046AB12 /* specs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7B000818BB08800046AB12 /* Build configuration list for PBXNativeTarget "specs" */;
+			buildPhases = (
+				5A7BFFF018BB08800046AB12 /* Sources */,
+				5A7BFFF118BB08800046AB12 /* Frameworks */,
+				5A7BFFF218BB08800046AB12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = specs;
+			productName = specs;
+			productReference = 5A7BFFF418BB08800046AB12 /* specs.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,6 +303,7 @@
 			targets = (
 				5A465B9B18BB046F004E3465 /* FooProject */,
 				5A465BB618BB046F004E3465 /* FooProjectTests */,
+				5A7BFFF318BB08800046AB12 /* specs */,
 			);
 		};
 /* End PBXProject section */
@@ -222,6 +315,7 @@
 			files = (
 				5A465BAA18BB046F004E3465 /* InfoPlist.strings in Resources */,
 				5A465BB218BB046F004E3465 /* Images.xcassets in Resources */,
+				5A7B000F18BB09510046AB12 /* FPHomeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +327,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5A7BFFF218BB08800046AB12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7BFFFD18BB08800046AB12 /* InfoPlist.strings in Resources */,
+				5A7B001018BB09510046AB12 /* FPHomeView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -241,7 +344,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A465BB018BB046F004E3465 /* FPAppDelegate.m in Sources */,
+				5A7B000D18BB091B0046AB12 /* FPHomeViewController.m in Sources */,
+				5A7B001818BB0EF70046AB12 /* UIColor+Monokai.m in Sources */,
 				5A465BAC18BB046F004E3465 /* main.m in Sources */,
+				5A7B001418BB0C7A0046AB12 /* FPAPIClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +356,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A465BC518BB046F004E3465 /* FooProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7BFFF018BB08800046AB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7B000A18BB08A40046AB12 /* FPHomeViewControllerSpec.mm in Sources */,
+				5A7BFFFF18BB08800046AB12 /* main.m in Sources */,
+				5A7B001918BB0EF70046AB12 /* UIColor+Monokai.m in Sources */,
+				5A7B001118BB0A8C0046AB12 /* FPHomeViewController.m in Sources */,
+				5A7B001B18BB1CF50046AB12 /* FPAPIClientSpec.mm in Sources */,
+				5A7B001518BB0C7A0046AB12 /* FPAPIClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +395,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				5A465BC218BB046F004E3465 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A7BFFFB18BB08800046AB12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A7BFFFC18BB08800046AB12 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -423,6 +550,55 @@
 			};
 			name = Release;
 		};
+		5A7B000618BB08800046AB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/rbobbins/code/FooProject/specs/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "specs/specs-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "specs/specs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A7B000718BB08800046AB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/rbobbins/code/FooProject/specs/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "specs/specs-Prefix.pch";
+				INFOPLIST_FILE = "specs/specs-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -442,12 +618,22 @@
 				5A465BCA18BB046F004E3465 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A465BCB18BB046F004E3465 /* Build configuration list for PBXNativeTarget "FooProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A465BCC18BB046F004E3465 /* Debug */,
 				5A465BCD18BB046F004E3465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A7B000818BB08800046AB12 /* Build configuration list for PBXNativeTarget "specs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7B000618BB08800046AB12 /* Debug */,
+				5A7B000718BB08800046AB12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
